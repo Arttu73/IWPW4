@@ -1,5 +1,9 @@
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #eceff1;
 }
 
@@ -37,6 +41,8 @@ button {
 h1 {
   text-align: center;
 }
+
+
 @media (min-width: 800px) {
 
   .show-data {
@@ -49,3 +55,13 @@ h1 {
   
 }
 
+@media (max-width: 800px) {
+  img {
+    margin: auto;
+  }
+
+  .show-info > p {
+    text-align: center;
+    padding: 10px;
+  }
+}
