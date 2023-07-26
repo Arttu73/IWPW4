@@ -35,7 +35,7 @@ button {
 }
 
 @media all and (max-width: 800px) {
-  .show-data {
+  .show-data > img {
     display: flex;
   }
 
