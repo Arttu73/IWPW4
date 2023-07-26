@@ -232,6 +232,9 @@ submitButton.addEventListener("click", /*#__PURE__*/_asyncToGenerator( /*#__PURE
     }
   }, _callee, null, [[1, 11]]);
 })));
+document.querySelector("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+});
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

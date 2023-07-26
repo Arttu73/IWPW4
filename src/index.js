@@ -44,3 +44,6 @@ submitButton.addEventListener("click", async function() {
   }
 });
 
+document.querySelector("form").addEventListener("submit", function (event) {
+  event.preventDefault();
+});
