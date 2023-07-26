@@ -34,6 +34,9 @@ button {
   width: 100%;
 }
 
+h1 {
+  text-align: center;
+}
 @media (min-width: 800px) {
 
   .show-data {
